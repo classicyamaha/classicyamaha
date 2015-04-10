@@ -4,7 +4,7 @@
 * Variables you can change
 *************************/
 
-$mailto   = "info@indonez.com"; // Enter your mail addres here. 
+$mailto   = "getmeoverhere@gmail.com"; // Enter your mail addres here. 
 $name     = ucwords($_POST['name']); 
 $subject  = $_POST['subject']; // Enter the subject here.
 $email    = $_POST['email'];
