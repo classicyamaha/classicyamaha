@@ -1,506 +1,494 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8" />
-<meta name="format-detection" content="telephone=no" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Classic Yamaha!: Auto Sales & Servicing</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //     Retina Bookmark Icon     // -->
-<!-- ////////////////////////////////// -->
-<link rel="apple-touch-icon-precomposed" href="apple-icon.png"/>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Classic Yamaha!: Auto Sales & Servicing</title>
+	<meta name="description" content="Auto Sales, Servicing of Yamaha Motorbikes & Scooters">
+	<meta name="author" content="The Knight Labs">
 
-<!-- ////////////////////////////////// -->
-<!-- //     Retina Bookmark Icon     // -->
-<!-- ////////////////////////////////// -->
-<link rel="apple-touch-icon-precomposed" href="apple-icon.png"/>
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- ////////////////////////////////// -->
-<!-- //      Stylesheets Files       // -->
-<!-- ////////////////////////////////// -->
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/media.css"/>
-<link rel="stylesheet" href="css/revolution.css" media="screen"/>
-<link rel="stylesheet" href="css/media-slideshow.css" media="screen"/>
-<link rel="stylesheet" href="css/noscript.css" media="screen,all" id="noscript"/>
+	
+	<!-- CSS
+  ================================================== -->
+  	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/flexslider.css">
+	<link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/red.css">
+	<link href="fonts/fontello.css" rel="stylesheet">
+	
+		
 
-<!-- ////////////////////////////////// -->
-<!-- //     Google Webfont Files     // -->
-<!-- ////////////////////////////////// -->
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,300italic,400italic,700italic"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rationale"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-<!-- ////////////////////////////////// -->
-<!-- //        Favicon Files         // -->
-<!-- ////////////////////////////////// -->
-<link rel="shortcut icon" href="images/favicon.ico"/>
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon1.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="js/jquery.easing-1.3.min.js"></script>
-<script src="js/masonry.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/jquery.parallax-1.1.3.js"></script>
-<script src="js/jquery.li-scroller.1.0.js"></script>
-<script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-<script src="js/jquery.themepunch.plugins.min.js"></script>
-<script src="js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/mediaelement-and-player.min.js"></script>
-<script src="js/jquery.fancybox.js?v=2.0.6"></script>
-<script src="js/jquery.fancybox-media.js?v=1.0.3"></script>
-<script src="js/jquery.donutchart.js"></script>
-<script src="js/jflickrfeed.min.js"></script>
-<script src="js/jquery.twitter.js"></script>
-<script src="js/accordion-functions.js" ></script>
-<script src="js/theme-functions.js"></script>
-<script src="js/jquery.retina.js"></script>
-<script>
-$(document).ready(function() {
-//Retina Image
-$('img.retina').retina('@2x');
-
-//Slideshow
-$('.banner').revolution({
-delay:9000,
-startwidth:1040,
-startheight:463,
-hideThumbs:0,
-navigationType:"none",					// bullet, thumb, none
-navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
-navigationStyle:"navbar",				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
-navigationHAlign:"center",				// Vertical Align top,center,bottom
-navigationVAlign:"bottom",				// Horizontal Align left,center,right
-navigationHOffset:0,
-navigationVOffset:0,
-soloArrowLeftHalign:"left",
-soloArrowLeftValign:"center",
-soloArrowLeftHOffset:1040,
-soloArrowLeftVOffset:259,
-soloArrowRightHalign:"right",
-soloArrowRightValign:"center",
-soloArrowRightHOffset:90,
-soloArrowRightVOffset:259,
-touchenabled:"on",						// Enable Swipe Function : on/off
-onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
-stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
-stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
-hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
-hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
-hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
-shadow:0,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
-fullWidth:"off"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
-})
-
-});	
-</script>
-<script>
-$(window).load(function() {
-//Masonry
-$('#pf-wrapper2').masonry({
-itemSelector : '.item',
-columnWidth: 1,
-});	
-
-});
-</script>
-
-<!-- IE Fix for HTML5 Tags -->
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 </head>
 <body>
-	<div id="box-wrapper">
-        <!-- header start here -->
-        <header>
+	<!-- Primary Page Layout
+	================================================== -->
+	
+	
+	<div id="intro">
+	
+		<div class="bg1"></div>
+		
+		<div class="title">
+			<div class="logo"><img src="images/logo.png"></div>
+			<h1 class="small">Classic Yamaha!</h1>
+			<div class="intro-line"></div>
+			<p>Auto Sales & Servicing, Complete solution to Yamaha!</p>
+            <div class="intro-line"></div>
+            <ul class="socialme pull-left">
                 
-            <!-- top info start here -->
-            <div id="top-info">
-                <div class="row">
-                    <div class="twelve column top-desc">
-                        <ul>
-                            <li class="tablet-hide"><i class="icon-checkin"></i><span>Opposite Daliganj Crossing, Khadra, Lucknow, UP</span></li>
-                            <li><i class="icon-phonealt"></i><span>7678967896</span></li>
-                            <li class="mobile-hide"><i class="icon-envelope"></i><span>classicyamaha@gmail.com</span></li>
-                        </ul>            
-                    </div>
-                </div>
-            </div>
-            <!-- top info end here -->
+                <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+            </ul>
+		</div> <!-- end title -->
+	</div> <!-- end intro -->
+	
+	
+	<nav>
+		<ul>
+			<li><a href="#intro" onClick="changetitle(1);">Top</a></li>
+			<li><a href="#work" onClick="changetitle(2);">Portfolio</a></li>
+			<li><a href="#services" onClick="changetitle(3);">Services</a></li>
+			<li><a href="#about" onClick="changetitle(4);">About</a></li>
+			<li><a href="#contact" onClick="changetitle(5);">Contact</a></li>
+			
+		</ul>
+        
+        <script type="text/javascript">
+			function changetitle(n) {
+				switch(n)
+						{
+						case 1:
+						  window.document.title = "Intoduction  | Classic Yamaha!";
+						  break;
+						case 2:
+						  window.document.title = "Portfolio | Classic Yamaha!";
+						  break;
+						case 3:
+						  window.document.title = "Our Services | Classic Yamaha!";
+						  break;  
+						case 4:
+						  window.document.title = "About Us | Classic Yamaha!";
+						  break;
+						case 5:
+						  window.document.title = "Contact Us | Classic Yamaha!";
+						  break; 
+						  
+						default:
+						  window.document.title = "Classic Yamaha!: Auto Sales & Servicing";
+						}
+						}
+		</script>
+        
+		<script type="text/javascript">
+			function navigateTo(sel) {
+				var url = sel.options[sel.selectedIndex].value;
+				window.location.href = url;
+				changetitle(sel.selectedIndex+1);
+			}
+		</script>
+        
+		<select name="dropdpown" size="1" onChange="navigateTo(this);">
+			<option value="#intro" selected="selected">Top</option>
+			<option value="#work">Portfolio</option>
+			<option value="#services">Services</option> 
+			<option value="#about">About</option> 
+			<option value="#contact">Contact</option> 
+			
+		</select>
+	</nav>
+	
+	
+	<div id="work">
+		<div class="container">
+		
+			<div class="sixteen columns">
+				<h2><span class="lines">Our Portfolio</span></h2>
+			</div> <!-- end sixteen columns -->
+			
+			<div class="eight columns">
+				<p>At Classic YAMAHA! we the Exclusive & Trusted Brand renowned for marketing and manufacturing of YAMAHA products, focusing on serving our customer where we can build long term relationships by raising their lifestyle through performance excellence, proactive design & innovative technology. Our innovative solutions will always exceed the changing needs of our customers and provide value added vehicles.</p>
+			</div> 
+			
+			<div class="eight columns">
+				<ul>
+					  <li>What we are capable of..</li>
+                      <li>► Variety of Motorbikes and Scooters.</li>                    
+                      <li>► Trust ranging with sky. </li>
+                      <li>► Servicing is our priority.</li>
+                      <li>► Customer satisfaction with a smile is our goal.</li>
+                    </ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="images/slide1.jpg" alt="" /></li>
+						<li><img src="images/slide2.jpg" alt="" /></li>
+						<li><img src="images/slide3.jpg" alt="" /></li>
+					</ul>
+				</div><!-- end flexslider -->
+			</div> <!-- end sixteen columns -->
+			
+			
+			
+			
+			<div class="clear"></div>
+			
+			<div class="portfolio">
+			
+				<div class="one-third column">
+					<!-- begin example gallery -->
+					<a href="images/example-img.png" rel="prettyPhoto[gallery1]" title="Your text here"><img src="images/thumb1.jpg" class="scale-with-grid" alt="" /></a>
+					<div class="hidden"><a href="images/example-img.png" rel="prettyPhoto[gallery1]" title="your text here again"><img src="images/thumb4.jpg" class="scale-with-grid" style="display:hidden;" /></a></div>
+					<div class="hidden"><a href="images/example-img.png" rel="prettyPhoto[gallery1]" title="your text here again"><img src="images/thumb4.jpg" class="scale-with-grid" style="display:hidden;" /></a></div>
+					<div class="hidden"><a href="images/example-img.png" rel="prettyPhoto[gallery1]" title="your text here again"><img src="images/thumb4.jpg" class="scale-with-grid" style="display:hidden;" /></a></div>
+					<!-- end gallery -->
+					<p class="proj-title">Motorbikes & Scooter Sales</p>
+					<p class="proj-desc">All variety of Yamaha available with us.</p>
+				</div> <!-- end one-third column -->
+			
+				<div class="one-third column">
+					<a href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf?width=792&amp;height=294" rel="prettyPhoto" title="Your text here"><img src="images/thumb2.jpg" class="scale-with-grid" alt="" /></a>
+					<p class="proj-title">Financing Services</p>
+					<p class="proj-desc">We provide easy finance with minimum interest.</p>
+				</div> <!-- end one-third column -->
+			
+				<div class="one-third column">
+					<a href="images/example-img.png" rel="prettyPhoto" title="Your text here"><img src="images/thumb3.jpg" class="scale-with-grid" alt="" /></a>
+					<p class="proj-title">Servicing</p>
+					<p class="proj-desc">We have best skilled team which services your needs.</p>
+				</div> <!-- end one-third column -->
+				
+				<div class="clear"></div>
+				
+				
+			
+			</div> <!-- end portfolio -->
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<div class="action">
+					<p>Wish to get a Quote?</p>
+					<a href="#contact" onClick="changetitle(5);"><div class="button1">Contact Us</div></a>
+				</div> <!-- end action -->
+			</div> <!-- end sixteen columns --> 
+			
+		</div> <!-- end container -->
+	</div> <!-- work -->
+	
+	
+	<div id="separator1">
+		<div class="bg2"></div>
+		<p class="separator">We at Classic Yamaha!, make sure that customers are the priority with variety of Yamaha products to showcase.</p>
+	</div>
+	
+	
+	<div id="services">
+		<div class="container">
+		
+			<div class="sixteen columns">
+				<h2 class="white"><span class="lines">Our Services</span></h2>
+			</div> <!-- end sixteen columns -->
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<p class="white" style="text-align:center">WE STARTED WITH INNOVATION AND PASSION. We put customers first in everything we do. We take decisions keeping the customer in mind. We strive for excellence in everything we do and in the quality of goods & services we provide. We work hard to achieve what we commit & achieve results faster than our competitors and we never give up. Our Servicing will never take that smile off your face with what you arrived.</p>
+			</div> 
+		
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="images/slide1.jpg" alt="" /></li>
+						<li><img src="images/slide2.jpg" alt="" /></li>
+						<li><img src="images/slide3.jpg" alt="" /></li>
+					</ul>
+				</div><!-- end flexslider -->
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="pricing">
+			
+				<div class="sixteen columns">
+					<h3 class="white"><span class="lines">Servicing Schedules</span></h3>
+				</div> <!-- end sixteen columns -->
+
+				
+				<div class="sixteen columns">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><img src="images/slide1.jpg" alt="" /></li>
+						<li><img src="images/slide2.jpg" alt="" /></li>
+						<li><img src="images/slide3.jpg" alt="" /></li>
+					</ul>
+				</div><!-- end flexslider -->
+			</div>
+			
+		</div> <!-- end container -->
+	</div> <!-- end services -->
+	
+	
+	<div id="separator2">
+		<div class="bg3"></div>
+		<p class="separator">Give us a chance to Serve you, We will not let you down. </p>
+	</div>
+	
+	
+	<div id="about">
+		<div class="container">
+		
+			<div class="sixteen columns">
+				<h2><span class="lines">About US</span></h2>
+			</div> <!-- end sixteen columns -->
+			
+			<div class="eight columns">
+				<p>We have worked based on three ideas which constitute our “Corporate Philosophy”. One is our “Corporate Mission”, that is our core identity, values, purpose and visionary goals. The second is “Management Principles” - the guiding management principles for achieving our corporate mission. The third is “Action Guidelines”, the guidelines each individual should follow to realize our corporate mission.</p>
+			</div> 
+			
+			<div class="eight columns">
+				<p>We are in the business since 2011, in this span of time we have just learned a thing from our experience in this field it is only customers we have, We are going through our experience phase still but with the response we got helped us to grow. We provide all the solutions for Yamaha Motorbikes and Scooters presently based in Lucknow, Uttar Pradesh, India.</p>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="skills">
+			
+				<div class="sixteen columns">
+					<h3><span class="lines">Director's Word</span></h3>
+				</div> <!-- end sixteen columns -->
+				
+				<div class="sixteen columns">
+					<div class="flexslider">
+					<ul class="slides">
+						<li><img src="images/director.jpg" alt="" /></li>
+					</ul>
+				</div>
+				</div> <!-- end sixteen columns -->
+			</div> <!-- end skills -->
+			
+			<div class="clear"></div>
+			
+			<div class="team">
+			
+				<div class="sixteen columns">
+					<h3><span class="lines">Our Team</span></h3>
+				</div> <!-- end sixteen columns -->
+			
+				<div class="one-third column">
+					<img src="images/about-pic2.png" alt="" />
+					<p class="t-name">Tushar Gupta</p>
+					<p class="t-type">Director</p>
+					<p></p>
+					
+				</div> <!-- end one-third column -->
+				
+				<div class="one-third column">
+					<img src="images/about-pic.png" alt="" />
+					<p class="t-name">XXXXXXXXXX</p>
+					<p class="t-type">Sales Head</p>
+					<p></p>
+					
+			  </div> <!-- end one-third column -->
+				
+				<div class="one-third column">
+					<img src="images/about-pic3.png" alt="" />
+					<p class="t-name">XXXXXXXXXX</p>
+					<p class="t-type">Service Head</p>
+					<p></p>
+					
+				</div> <!-- end one-third column -->
+				
+			</div> <!-- end team -->
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<div class="action">
+					<p>It's our happiness to hear from you?</p>
+					<a href="#contact" onClick="changetitle(5);"><div class="button1">Contact Us</div></a>
+				</div> <!-- end action -->
+			</div> <!-- end sixteen columns -->
+			
+		</div> <!-- end container -->
+	</div> <!-- end about -->
+	
+	
+	<div id="separator3">
+		<div class="bg4"></div>
+		<p class="separator">Be our guest, We will make sure the service you get from us is truly UNMATCHED.</p>
+	</div>
+	
+	
+	<div id="contact">
+		<div class="container">
+		
+			<div class="sixteen columns">
+				<h2 class="white"><span class="lines">Contact US</span></h2>
+			</div> <!-- end sixteen columns -->
+			
+			<div class="eight columns">
+				<p class="white">Reach out to us, We will never return you without a smile.
+
+Please fill in the form and send the information to us, we will make sure of providing you with the best we can. Here in Yamaha being a brand name also one of the leading motorbikes and scooters manufacturer, customer is our first priority.</p>
+			</div> 		
             
-            <div class="row">
-                <div class="twelve column">
-                
-                    <div id="left-header">
-                        <!-- logo start here -->
-                        <div id="logo">
-                            <a href="index.html"><img src="images/logo.png" alt="main-logo" class="retina"/></a>
-                        </div>           
-                        <!-- logo end here -->
-                    </div>
-                    
-                    <div id="right-header">
-                        <div id="mainmenu-wrapper">
-                            <div class="left-menu">
-                                    
-                                <!-- navigation start here -->
-                                <nav id="mainmenu">
-                                    <ul id="menu">
-                                        <li class="dropdown selected"><a href="index.html">Home</a>
-                                           
-                                        </li> 
-										<li class="dropdown"><a href="#">Portfolio</a>
-                                        	<ul> 
-                                                
-                                                <li><a href="#">Motor Bikes</a>
-                                                    <ul> 
-                                                        <li><a href="#">dropdown level 2</a></li>
-                                                        <li><a href="#">dropdown level 2</a></li>
-                                                        <li><a href="#">dropdown level 2</a>
-                                                            
-                                                        </li>    	
-                                                    </ul>
-                                                </li>
-													<li><a href="#">Scooters</a>
-                                                    <ul> 
-                                                        <li><a href="#">dropdown level 2</a></li>
-                                                        <li><a href="#">dropdown level 2</a></li>
-                                                        <li><a href="#">dropdown level 2</a>
-                                                            
-                                                        </li>    	
-                                                    </ul>
-                                                </li>    												
-                                            </ul>
-                                        </li>
-                                                                
-                                        <li class="dropdown"><a href="#">Service</a>
-                                            <ul> 
-                                                <li><a href="services.html">Call Our Service</a></li>
-												<li><a href="quote.html">Get A Quote</a></li>
-                                                <li><a href="gallery.html">Gallery</a></li>
-                                                
-                                            </ul>
-                                        </li>                                        
-                                        
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                                <!-- navigation end here --> 
-                                    
-                            </div>
-                            
-                            <div class="right-menu" id="top-search">
-                                <a class="trigger" href="#"><i class="icon-search"></i></a>
-                                <div class="search-panel">
-                                    <ul>
-                                        <li>
-                                        <form id="search" action="#" method="get">
-                                            <fieldset class="search-fieldset">
-                                                <input type="text" id="search-form" value="type and hit enter" onblur="if (this.value == ''){this.value = 'type and hit enter'; }" onfocus="if (this.value == 'type and hit enter') {this.value = ''; }" />
-                                            </fieldset>      						
-                                        </form>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>                  
-                            
-                        </div>
-                        
-                        <div id="slogan-wrapper" class="text-center">
-                            <h1 class="smallmargin-bottom">Welcome to Classic Yamaha! </h1>
-                            <p class="lead mobile-hide">We service & sell Products, Experiences &amp; Automobiles That Transfrom Life.</p>
-                        </div>
-                        
-                    </div>
-                
-                </div>
-            </div>    
-                    
-        </header>
-        <!-- header end here -->
-        
-        <!-- slideshow start here -->
-        <section id="slideshow-container">
-            <div class="banner">            
-                
-                <ul>      
-                    <!-- slide 1 -->
-                    <li data-transition="papercut">
-                        <img src="images/slideshow/sld_imgbg1.jpg" alt="">
-                        <div class="caption general_caption fade" data-x="-65" data-y="7" data-speed="400" data-start="700" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree1.png" alt=""></div>                       
-                        <div class="caption general_caption fade" data-x="200" data-y="57" data-speed="400" data-start="100" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree3.png" alt=""></div>
-                        <div class="caption general_caption lfb" data-x="85" data-y="79" data-speed="6000" data-endspeed="1000" data-start="1500" data-end="8000" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_pad1.png" alt="">
-                        </div>
-                        <div class="caption general_caption fade" data-x="-5" data-y="188" data-speed="400" data-start="1100" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree2.png" alt=""></div>
-                        <div class="caption general_caption fade" data-x="805" data-y="177" data-speed="400" data-start="700" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree4.png" alt=""></div>                    
-                        <div class="caption general_caption fade" data-x="955" data-y="267" data-speed="400" data-start="1100" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree5.png" alt=""></div>
-                        
-                        <div class="caption general_caption lfb ltb home-media1"  data-x="480" data-y="173" data-speed="900" data-endspeed="900" data-start="550" data-end="8500" data-easing="easeOutExpo" data-endeasing="easeInExpo">
-                        	<h1 class="smallmargin-bottom">Unmatched Services</h1>
-                            <p class="lead">An experience to feel good about.</p>
-                        </div>                        
-                        <div class="caption general_caption lfb ltb home-media2"  data-x="482" data-y="270" data-speed="1400" data-endspeed="900" data-start="550" data-end="8500" data-easing="easeOutExpo" data-endeasing="easeInExpo">
-                        	<div class="slide-separator"></div>
-                        </div>
-                        <div class="caption general_caption lfb ltb "  data-x="480" data-y="290" data-speed="900" data-endspeed="1800" data-start="800" data-end="8500" data-easing="easeOutExpo" data-endeasing="easeInExpo">
-                            <p>We here at Classic Yamaha! bring in the most <br/>Sales & Servicing is our passion and we can provide you <br/>with the best.</p>
-                        </div>
-                        <div class="caption general_caption lfb ltb"  data-x="480" data-y="345" data-speed="800" data-endspeed="2000" data-start="1300" data-end="8500" data-easing="easeOutExpo" data-endeasing="easeInExpo">
-                                                    </div>
-                        
-                        <div class="caption general_caption lft" data-x="855" data-y="25" data-speed="8000" data-endspeed="1000" data-start="100" data-end="8000" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird1.png" alt="">
-                        </div>
-                        <div class="caption general_caption lft" data-x="555" data-y="90" data-speed="8000" data-endspeed="1000" data-start="800" data-end="8400" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird2.png" alt="">
-                        </div>
-                        <div class="caption general_caption lft" data-x="795" data-y="210" data-speed="8000" data-endspeed="1000" data-start="600" data-end="8800" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird3.png" alt="">
-                        </div>
-                    </li>
-                    
-                    <!-- slide 2 -->
-                    
-                    
-                    <!-- slide 3 -->
-                    <li data-transition="papercut">
-                        <img src="images/slideshow/sld_imgbg1.jpg" alt="">  
-                        <div class="caption general_caption fade" data-x="110" data-y="195" data-speed="400" data-start="700" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree11.png" alt=""></div>                 
-                        <div class="caption general_caption fade" data-x="-45" data-y="112" data-speed="400" data-start="100" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree10.png" alt=""></div>              
-                        <div class="caption general_caption fade" data-x="850" data-y="70" data-speed="400" data-start="400" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree13.png" alt=""></div> 
-                        <div class="caption general_caption fade" data-x="747" data-y="162" data-speed="400" data-start="1100" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree12.png" alt=""></div>                   
-                        <div class="caption general_caption fade" data-x="1015" data-y="265" data-speed="400" data-start="1400" data-easing="easeOutExpo" data-endeasing="easeInExpo"><img src="images/slideshow/object_tree14.png" alt=""></div> 
-                        
-                        <div class="caption general_caption lfb ltb text-center home-media1"  data-x="365" data-y="173" data-speed="900" data-endspeed="900" data-start="550" data-end="8500" data-easing="easeOutBack" data-endeasing="easeInBack">
-                        	<h1 class="smallmargin-bottom">Sales for Yamaha!</h1>
-                            <p class="lead">All ranges are available.</p>
-                        </div>                        
-                        <div class="caption general_caption lfb ltb home-media2"  data-x="482" data-y="270" data-speed="1400" data-endspeed="900" data-start="550" data-end="8500" data-easing="easeOutBack" data-endeasing="easeInBack">
-                        	<div class="slide-separator"></div>
-                        </div>
-                        <div class="caption general_caption lfb ltb text-center"  data-x="355" data-y="290" data-speed="900" data-endspeed="1800" data-start="800" data-end="8500" data-easing="easeOutBack" data-endeasing="easeInBack">
-                            <p>Find out all the designs colors and much more with us </br> which you can fulfill your automobile likes.</p>
-                        </div>
-                       <div class="caption general_caption lfb ltb"  data-x="480" data-y="345" data-speed="800" data-endspeed="2000" data-start="1300" data-end="8500" data-easing="easeOutBack" data-endeasing="easeInBack">
-                            
-                        </div>
-                        
-                        <div class="caption general_caption lft" data-x="350" data-y="25" data-speed="8000" data-endspeed="1000" data-start="100" data-end="8000" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird4.png" alt="">
-                        </div>
-                        <div class="caption general_caption lft" data-x="100" data-y="70" data-speed="8000" data-endspeed="1000" data-start="800" data-end="8400" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird2.png" alt="">
-                        </div>
-                        <div class="caption general_caption lft" data-x="615" data-y="105" data-speed="8000" data-endspeed="1000" data-start="600" data-end="8800" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird2.png" alt="">
-                        </div>
-                        <div class="caption general_caption lft" data-x="850" data-y="40" data-speed="8000" data-endspeed="1000" data-start="600" data-end="8800" data-easing="easeOutElastic" data-endeasing="easeInExpo">
-                        	<img src="images/slideshow/object_bird5.png" alt="">
-                        </div>
-                    </li>
-                </ul>
-                <div class="tp-bannertimer tp-bottom"></div>
-                    
-            </div>    	
-        </section>
-        <!-- slideshow end here -->      
-          
-        <!-- content section start here -->
-        <section class="content-wrapper">    	
-            <div class="row">        
-                <div class="six column margin-top">
-                	<h3 class="margin-bottom"><span class="highlight">Exclusive, Trusted and a Passion.</span></h3>
-                    <p class="lead">At Classic YAMAHA! we the Exclusive & Trusted Brand renowned for marketing and manufacturing of YAMAHA products, focusing on serving our customer where we can build long term relationships by raising their lifestyle through performance excellence, proactive design & innovative technology. Our innovative solutions will always exceed the changing needs of our customers and provide value added vehicles.</p>
-                    
-                    <ul class="check">
-                      <li>Variety of Motorbikes and Scooters.</li>                    
-                      <li>Trust ranging with sky. </li>
-                      <li>Servicing is our priority.</li>
-                      <li>Customer satisfaction with a smile is our goal.</li>
-                    </ul>
-                </div>
-                
-                <div class="six column margin-top">
-                	<ul class="client-box">
-                        <li><a href="#"><img src="images/sample_images/client1.png" alt="" class="retina" /></a></li>
-                        <li><a href="#"><img src="images/sample_images/client2.png" alt="" class="retina" /></a></li>
-                        <li><a href="#"><img src="images/sample_images/client3.png" alt="" class="retina" /></a></li>
-                        <li><a href="#"><img src="images/sample_images/client4.png" alt="" class="retina" /></a></li>
-                        <li><a href="#"><img src="images/sample_images/client5.png" alt="" class="retina" /></a></li>
-                        <li><a href="#"><img src="images/sample_images/client6.png" alt="" class="retina" /></a></li>
-                                      
-                    </ul>
-                </div>
-            </div>            	                 
-        </section>
-        <!-- content section end here --> 
-        
-        <!-- featured column section start here -->
-        <section class="featured-column bg-border2">
-            
-        </section>
-        <!-- featured column section end here -->
-        
-        <!-- content section start here -->
-        <section class="content-wrapper">
-        	<div class="row">                
-                <div class="three column margin-top">
-                	<h3 class="smallmargin-bottom2">What we do?</h3>
-                    <p class="lead">Sales & Servicing</p>
-                    <div class="slide-separator"></div>
-                    <p>Growing through innovation in our business processes for creating value and knowledge across our customers thereby earning the loyalty of our customers.</p>
-                   
-                </div>
-                
-                <div class="nine column">         
-                	<div id="pf-wrapper2" class="masonry js-masonry">
-                        <div class="item w2 caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt1.jpg" alt="" />
-                                <figcaption>
-                                    <h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p1.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                  
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt2.jpg" alt="" />
-                                <figcaption>
-                                	<<h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p></p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p2.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                    
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt3.jpg" alt="" />
-                                <figcaption>
-                                	<h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p3.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
+			<div class="clear"></div>
+			
+			<div class="eight columns">
+				<div class="contact-form">
+					
+					<div class="done">
+						<b>Thank you!</b> We have received your message. 
+					</div>
+				
+					<form method="post" action="process.php">
+						<p>name</p>
+						<input type="text" name="name" class="text" />
+						
+						<p>phone no</p>
+						<input type="text" name="email" class="text" id="email" />
 
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item w3 caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt4.jpg" alt="" />
-                                <figcaption>
-                                    <h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p4.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                    
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt5.jpg" alt="" />
-                                <figcaption>
-                                	<h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p5.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                    
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item w3 caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt6.jpg" alt="" />
-                                <figcaption>
-                                    <h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p6.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                    
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt7.jpg" alt="" />
-                                <figcaption>
-                                	<h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p7.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt8.jpg" alt="" />
-                                <figcaption>
-                                	<h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p8.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                   
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item caption-style2">
-                            <figure>
-                                <img src="images/portfolio_thumb/p-alt9.jpg" alt="" />
-                                <figcaption>
-                                <h6><a href="#">Classic YAMAHA!</a></h6>
-                                    <p>Click <i class="icon-search"></i> to view slideshow</p>
-                                    <a class="preview fancybox" href="images/portfolio_big/p9.jpg" data-fancybox-group="gallery" title=" "><i class="icon-search"></i></a>
-                                    
-                                </figcaption>
-                            </figure>
-                        </div>                                                                
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- content section end here -->       
-        
-        <!-- footer start here -->
-        <footer>      
-            <div class="row">
-                <div class="eight column">
-                	<ul class="no-bullet footer-list smallmargin-top2">
-                    	<li><a href="http://www.yamaha-motor-india.com/">Yamaha! India</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li class="link-box"><a href="#"><i class="icon-postalt"></i>Get A Quote</a></li>
-                    </ul>
-                    <p>&copy; 2015. All rights reserved. Website by The Knight Labs</p>                    
-                </div>
-                
-                <div class="four column">
-                	<ul class="social-list circle-social">
-                        <li><a href="https://www.facebook.com/classicyamahalko"><i class="social-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/ClassicYamaha"><i class="social-twitter"></i></a></li>
+						<p>requests</p>
+						<textarea name="comment" class="text"></textarea>
 
-                    </ul>    
-                </div>
-            </div>        
-        </footer>
-        <!-- footer end here -->
-    </div>
+						<input type="submit" id="submit" value="send" class="submit-button" />
+					</form>
+						
+				</div> <!-- end contact-form -->
+			</div> <!-- end eight columns -->
+			
+			<div class="eight columns">
+				
+				<div class="contact-info">
+					
+					<h5>Contact Info</h5>
+				
+					<p class="white"><i class="icon-phone"></i> +91-7678967896</p>
+					<p class="white"><i class="icon-mail"></i> classic.yamaha@gmail.com</p>
+					<p class="white"><i class="icon-home"></i> Opposite Daliganj Crossing, Beside Union Bank<br />
+						Lucknow, Uttar Pradesh - 226020</p>
+				</div> <!-- end contact-info -->
+				
+                 <ul class="socialme pull-left">
+                 	
+                    <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+            	</ul>
+				
+			</div> <!-- end eight columns -->
+			
+			<div class="clear"></div>
+			
+			<div class="sixteen columns">
+				<div class="copyright">
+					<p>Made with ♥ in India.</p>
+				</div>
+			</div>
+			
+			
+		</div> <!-- end container -->
+		
+	</div> <!-- end contact -->
+	
 
-<script>$('#noscript').remove();</script>
+	
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="javascripts/jquery.sticky.js" type="text/javascript"></script>
+	<script src="javascripts/nbw-parallax.js" type="text/javascript"></script>
+	<script src="javascripts/jquery.inview.js" type="text/javascript"></script>
+	<script src="javascripts/smooth-scroll.js" type="text/javascript"></script>
+	<script src="javascripts/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="contact-form.js"></script>
+	
+	<!-- Sticky nav -->
+	<script>
+		$(document).ready(function(){
+			$("nav").sticky({topSpacing:0});
+		});
+	</script>
+	
+	
+	<!-- dropdown menu -->
+	<script type="text/javascript">
+    	function scrollTo(target){
+        	var targetPosition = $(target).offset().top;
+        	$('html,body').animate({ scrollTop: targetPosition}, 'slow');
+        }
+    </script>
+	
+	
+	
+	<!-- slider -->
+	<script>
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 3500,
+				animationSpeed: 1000
+			});
+		});
+	</script>
+	
+	<!-- pretty photo 
+	<script>
+		$(document).ready(function(){
+			$("a[class^='prettyPhoto']").prettyPhoto({
+				social_tools: false,
+				theme: 'light_square'
+			});
+		});
+	</script>
+	-->
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto({
+				social_tools: false,
+				theme: 'light_square'
+			});
+		});
+	</script>
+
+
+<!-- End Document
+================================================== -->
 </body>
 </html>
