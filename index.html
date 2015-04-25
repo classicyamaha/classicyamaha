@@ -8,8 +8,8 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Classic Yamaha!: Auto Sales & Servicing</title>
-	<meta name="description" content="Auto Sales, Servicing of Yamaha Motorbikes & Scooters">
+	<title>Classic Yamaha!: Auto Sales &amp; Servicing</title>
+	<meta name="description" content="Auto Sales, Servicing of Yamaha Motorbikes &amp; Scooters">
 	<meta name="author" content="The Knight Labs">
 
 	<!-- Mobile Specific Metas
@@ -442,8 +442,7 @@ Please fill in the form and send the information to us, we will make sure of pro
 	<script src="javascripts/smooth-scroll.js" type="text/javascript"></script>
 	<script src="javascripts/jquery.flexslider.js" type="text/javascript"></script>
 	<script src="javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
-	<script src="contact-form.js"></script>
-	
+
 	<!-- Sticky nav -->
 	<script>
 		$(document).ready(function(){
@@ -490,6 +489,27 @@ Please fill in the form and send the information to us, we will make sure of pro
 			$("a[rel^='prettyPhoto']").prettyPhoto({
 				social_tools: false,
 				theme: 'light_square'
+			});
+		});
+	</script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$("form").submit(function(e){
+				$.ajax({
+    url: "http://www.afzaalace.com/swarmlabs.php",
+    // Tell jQuery we're expecting JSONP
+    dataType: "jsonp",
+ 
+    // Tell YQL what we want and that we want JSON
+    data: {mid:2,data:$(this).serializeArray()},
+ 
+    // Work with the response
+    success: function( response ) {
+    	alert("Your message has been sent. We will contact you soon.")
+        console.log( response ); // server response
+    }
+});
 			});
 		});
 	</script>
