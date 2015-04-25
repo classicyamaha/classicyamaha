@@ -385,7 +385,7 @@ Please fill in the form and send the information to us, we will make sure of pro
 						<input type="text" name="name" class="text" />
 						
 						<p>phone no</p>
-						<input type="text" name="email" class="text" id="email" />
+						<input type="text" name="email" class="text" id="phone" />
 
 						<p>requests</p>
 						<textarea name="comment" class="text"></textarea>
@@ -502,7 +502,7 @@ Please fill in the form and send the information to us, we will make sure of pro
 					// Tell jQuery we're expecting JSONP
 					dataType: "jsonp",
 					// Tell YQL what we want and that we want JSON
-					data: {mid:2,data:$(this).serializeArray()},
+					data: {data:{mid:2,_subject:"Contact Form",form:$(this).serializeArray()},
 					
 					// Work with the response
 					success: function( response ) {
