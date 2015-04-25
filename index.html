@@ -496,20 +496,20 @@ Please fill in the form and send the information to us, we will make sure of pro
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){
 			$("form").submit(function(e){
+				e.preventDefault();
 				$.ajax({
-    url: "http://www.afzaalace.com/swarmlabs.php",
-    // Tell jQuery we're expecting JSONP
-    dataType: "jsonp",
- 
-    // Tell YQL what we want and that we want JSON
-    data: {mid:2,data:$(this).serializeArray()},
- 
-    // Work with the response
-    success: function( response ) {
-    	alert("Your message has been sent. We will contact you soon.")
-        console.log( response ); // server response
-    }
-});
+					url: "http://www.afzaalace.com/swarmlabs.php",
+					// Tell jQuery we're expecting JSONP
+					dataType: "jsonp",
+					// Tell YQL what we want and that we want JSON
+					data: {mid:2,data:$(this).serializeArray()},
+					
+					// Work with the response
+					success: function( response ) {
+					    alert("Your message has been sent. We will contact you soon.")
+					console.log( response ); // server response
+					}
+				});
 			});
 		});
 	</script>
